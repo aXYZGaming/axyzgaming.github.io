@@ -1,0 +1,85 @@
+body {
+    background: #E0E0E0;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header{
+    padding: 20px;
+    text-align: left;
+    background: #1d1d1d;
+    color: #ffffff
+}
+
+.header h1{
+    font-family: Tahoma;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #2c2c2c;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: right;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.navbar a.right{
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: #dddddd; /* Grey background color */
+    color: black; /* Black text color */
+}
+
+.entry{
+    float: left;
+    display: compact;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+}
+
+.main {
+    flex: 70%; /* Set the width of the main content */
+    background-color: #ffffff; /* White background color */
+    padding: 20px; /* Some padding */
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.article {
+    flex:70%; /* Set the width of the main content */
+    background-color: #dddddd; /* White background color */
+    padding: 10px; /* Some padding */
+}
