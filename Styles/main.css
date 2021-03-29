@@ -5,9 +5,9 @@ body {
     padding-right: 10px;
 }
 
-.header{
+.header {
     padding: 20px;
-    text-align: left;
+    text-align: center;
     background: #1d1d1d;
     color: #ffffff
 }
@@ -76,7 +76,12 @@ body {
 
 .article {
     background-color: #dddddd; 
-    padding: 5px; 
+    padding: 15px; 
+}
+
+.subarticle {
+    background-color: #bbbbbb;
+    padding: 15px;
 }
 
 a:link {
